@@ -11,32 +11,41 @@ header{
 header h1{
 	background-color: teal;
 	width: 20%;
+	margin-left: 30px;
 	;
 }
 #indexMenu{
 	text-align: right;
-	margin-bottom: : 30px;
+	margin-bottom: : 40px;
 }
 
+#indexPic{
+	float: left;
+}
 #leftBox{
-	background: pink;
+	background: #eee;
 	width: 500px;
 }
 
 #rightBox{
-	background: pink;
-	width: 570px;
+	background: #eee;
+	width: 270px;
+	text-align: center;
+
 }
+#git, #link, #stack{
+	width: 50px;
+	height: 50px;
+}
+
 footer{
-	.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-};
+	
+	font-size: small;
 	text-align: center;
 	background-color: green;
 	border-top: 5px blue solid;
 	padding: 20px 0;
+
 }
 
 
