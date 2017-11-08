@@ -1,0 +1,27 @@
+body{background-color: gray;
+}
+
+
+header{
+	background-color: white;
+}
+
+header h1{
+	background-color: teal;
+	width: 20%;
+}
+#indexMenu{
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+footer{
+	text-align: center;
+	background-color: green;
+	border-top: 5px blue solid;
+	padding: 20px 0;
+}
+
+
+
+
