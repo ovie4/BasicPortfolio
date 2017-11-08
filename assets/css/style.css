@@ -19,7 +19,10 @@ header h1{
 
 #indexTitle h1{
 	border-bottom: 1px solid gray;
-	padding-top: 0 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: teal;
+	font-family: "Helvetica", "Georgia", "serif";
 }
 #indexMenu{
 	text-align: right;
