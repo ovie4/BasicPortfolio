@@ -19,6 +19,7 @@ header h1{
 
 #indexTitle h1{
 	border-bottom: 1px solid gray;
+	padding-top: 0 20px;
 }
 #indexMenu{
 	text-align: right;
