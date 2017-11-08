@@ -5,6 +5,7 @@ body{background-color: gray;
 
 header{
 	background: white;
+	border-bottom: 1px black solid;
 
 }
 
@@ -12,19 +13,33 @@ header h1{
 	background-color: teal;
 	width: 20%;
 	margin-left: 30px;
+	display: inline;
 	;
+}
+
+#indexTitle h1{
+	border-bottom: 1px solid gray;
 }
 #indexMenu{
 	text-align: right;
-	margin-bottom: : 40px;
+	display: inline;
+	float: right;
+	word-spacing: 15px;
 }
 
 #indexPic{
 	float: left;
+	padding: 0 20px;
 }
+
 #leftBox{
 	background: #eee;
 	width: 500px;
+}
+
+
+#leftBox p{
+	padding: 0 20px;
 }
 
 #rightBox{
