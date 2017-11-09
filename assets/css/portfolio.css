@@ -5,7 +5,7 @@ body{
 
 #container{
 	width: 960px;
-	left: 10%;
+	margin: 0 auto;
 
 }
 
@@ -161,6 +161,8 @@ img.boxes{
 
 footer{
 	clear: both;
+	position: absolute;
+	bottom: 0;
 	font-size: small;
 	text-align: center;
 	background-color: #666666;
