@@ -1,5 +1,6 @@
 body{
-	background: pink;
+	background-image: url("../images/playstation.png");
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 }
 
 #container{
@@ -11,8 +12,8 @@ body{
 
 header{
 	background: white;
-	border-bottom: 1px black solid;
-
+	border-bottom: 1px #cccccc solid;
+	
 }
 
 header h1{
@@ -22,6 +23,8 @@ header h1{
 	width: 20%;
 	margin-left: 30px;
 	display: inline;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+
 }
 
 #indexTitle h1{
@@ -29,7 +32,7 @@ header h1{
 	margin-left: 20px;
 	margin-right: 20px;
 	color: teal;
-	font-family: "Helvetica", "Georgia", "serif";
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 	font-weight: bold;
 	font-size: 2em;
 }
@@ -53,6 +56,8 @@ header h1{
 	width: 650px;
 	float: left;
 	margin: 15px;
+	border: 1px solid #dddddd;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 
 
@@ -61,12 +66,68 @@ header h1{
 
 }
 
+.boxes{
+	max-width: 45%;
+	text-align: center;
+	color: white;
+}
+
+#box1,{
+	position: relative;
+	float: left;
+}
+
+#football{
+	position: absolute;
+	bottom: 4px;
+	left: 95px;
+	background: teal;
+}
+
+#box2,{
+	position: relative;
+	float: left;
+
+}
+
+#mixology{
+	position: absolute;
+	background: teal;
+}
+
+#box3,{
+	position: relative;
+	float: left;
+}
+
+#fantasy{
+	position: absolute;
+	background: teal;
+}
+
+
+#fantasyPic{
+	max-height: 200px;
+}
+
+#box4{
+	position: relative;
+	float: left;
+}
+
+#code{
+	position: absolute;
+	background: teal;
+}
+
 #rightBox{
 	background: #eee;
+	color: teal;
 	text-align: center;
 	float: left;
 	width: 270px;
 	margin-top: 30px;
+	border: 1px solid #dddddd;
 }
 
 #git, #link, #stack{
@@ -78,7 +139,7 @@ footer{
 	clear: both;
 	font-size: small;
 	text-align: center;
-	background-color: green;
+	background-color: #666666;
 	border-top: 5px blue solid;
 	padding: 20px 0;
 	position: fixed;

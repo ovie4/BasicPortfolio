@@ -1,4 +1,6 @@
-body{background-image: url("../images/spiration.png");
+body{
+	background-image: url("../images/playstation.png");
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 }
 
 #container{
@@ -10,7 +12,7 @@ body{background-image: url("../images/spiration.png");
 
 header{
 	background: white;
-	border-bottom: 1px black solid;
+	border-bottom: 1px #cccccc solid;
 
 }
 
@@ -21,7 +23,7 @@ header h1{
 	width: 20%;
 	margin-left: 30px;
 	display: inline;
-	;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 
 #indexTitle h1{
@@ -32,6 +34,7 @@ header h1{
 	font-family: "Helvetica", "Georgia", "serif";
 	font-weight: bold;
 	font-size: 2em;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 }
 #indexMenu{
 	text-align: right;
@@ -58,6 +61,7 @@ header h1{
 	width: 650px;
 	float: left;
 	margin: 15px;
+	border: 1px solid #dddddd;
 }
 
 
@@ -67,11 +71,14 @@ header h1{
 }
 
 #rightBox{
+	color: teal;
 	background: #eee;
 	text-align: center;
 	float: left;
 	width: 270px;
 	margin-top: 30px;
+	border: 1px solid #dddddd;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 
 }
 #git, #link, #stack{
@@ -83,7 +90,7 @@ footer{
 	clear: both;
 	font-size: small;
 	text-align: center;
-	background-color: green;
+	background-color: #666666;
 	border-top: 5px blue solid;
 	padding: 20px 0;
 	position: fixed;
