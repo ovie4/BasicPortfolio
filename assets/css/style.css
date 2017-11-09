@@ -13,6 +13,7 @@ body{
 header{
 	background: white;
 	border-bottom: 1px #cccccc solid;
+	
 
 }
 
@@ -95,7 +96,7 @@ footer{
 	padding: 20px 0;
 	position: fixed;
 	bottom: 0;
-	width: 960px;
+	width: 100%;
 
 }
 
