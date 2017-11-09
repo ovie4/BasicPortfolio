@@ -67,9 +67,9 @@ header h1{
 }
 
 .boxes{
-	max-width: 45%;
 	text-align: center;
 	color: white;
+	margin: 15px;
 }
 
 #box1,{
@@ -84,6 +84,13 @@ header h1{
 	background: teal;
 }
 
+img.boxes{
+	max-height: 200px;
+	float: left;
+}
+
+
+}
 #box2,{
 	position: relative;
 	float: left;
@@ -94,6 +101,7 @@ header h1{
 	position: absolute;
 	background: teal;
 }
+
 
 #box3,{
 	position: relative;
@@ -106,10 +114,6 @@ header h1{
 }
 
 
-#fantasyPic{
-	max-height: 200px;
-}
-
 #box4{
 	position: relative;
 	float: left;
@@ -119,6 +123,8 @@ header h1{
 	position: absolute;
 	background: teal;
 }
+
+
 
 #rightBox{
 	background: #eee;
@@ -144,6 +150,6 @@ footer{
 	padding: 20px 0;
 	position: fixed;
 	bottom: 0;
-	width: 960px;
+	width: 100%;
 
 }
