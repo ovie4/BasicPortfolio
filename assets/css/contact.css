@@ -105,6 +105,11 @@ header h1{
 	width: 100%;
 }
 
+input[type=submit]{
+	background: teal;
+	color: white;
+}
+
 #rightBox{
 	background: #eee;
 	color: teal;
